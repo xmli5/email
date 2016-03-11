@@ -21,4 +21,4 @@ This thing is designed to be bulletproof.
 
 - It's composed in polyglot HTML, enabling the document to be transmitted as `application/xml+xhtml` with an amendment to the `http-equiv` meta tag specifying the MIME type.
 
-- It's valid XHTML<sub>1.0</sub> Transitional!
+- It's valid XHTML<sub>1.0 Transitional</sub>!
