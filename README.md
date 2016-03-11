@@ -20,3 +20,5 @@ This thing is designed to be bulletproof.
 - Attributes like `width`, `height`, `border` etc. are specified and then respecified in inline-style attributes, ensuring that the styling information is communicated one way or the other.
 
 - It's composed in polyglot HTML, enabling the document to be transmitted as `application/xml+xhtml` with an amendment to the `http-equiv` meta tag specifying the MIME type.
+
+- It's valid XHTML<sub>1.0</sub. Transitional!
