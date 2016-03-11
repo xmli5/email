@@ -11,10 +11,12 @@
 
 This thing is designed to be bulletproof.
 
-- It uses percentages to ensure that the email is reasonably responsive without relying on hacks and unreliable tricks.
+- It uses percentages to ensure that the email is reasonably responsive without relying on hacks and unreliable tricks. Pixel widths are specified as inline-styles as a fallback just in case.
 
 - It works without a DOCTYPE, and is supplied with the XHTML1 Transitional DOCTYPE for reliability between the few clients that don't strip the DOCTYPE.
 
-- It uses only `table`,`tr` and `td` elements and `align`/`valign` attributes for layout.
+- It uses only `table`,`tr`, `td` and `br` elements for layout, adjusted where necessary with `align`/`valign` attributes.
+
+- Attributes like `width`, `height`, `border` etc. are specified and then respecified in inline-style attributes, ensuring that the styling information is communicated one way or the other.
 
 - It's composed in polyglot HTML, enabling the document to be transmitted as `application/xml+xhtml` with an amendment to the `http-equiv` meta tag specifying the MIME type.
